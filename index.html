@@ -1,566 +1,566 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Banqueta Verde y Limpia - Portafolio del Proyecto</title>
-    <style>
-        /* CSS RESET & GENERAL STYLES */
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.6;
-            color: #2d3748;
-            background-color: #f4f7f5;
-            padding-bottom: 60px;
-        }
+    <!DOCTYPE html>
+    <html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mi Banqueta Verde y Limpia - Portafolio del Proyecto</title>
+        <style>
+            /* CSS RESET & GENERAL STYLES */
+            * {
+                box-sizing: border-box;
+                margin: 0;
+                padding: 0;
+            }
+            body {
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                line-height: 1.6;
+                color: #2d3748;
+                background-color: #f4f7f5;
+                padding-bottom: 60px;
+            }
 
-        /* CONTAINER */
-        .container {
-            max-width: 1100px;
-            margin: 0 auto;
-            padding: 0 20px;
-        }
+            /* CONTAINER */
+            .container {
+                max-width: 1100px;
+                margin: 0 auto;
+                padding: 0 20px;
+            }
 
-        /* HEADER & NAVIGATION */
-        header {
-            background-color: #2a5c43;
-            color: #ffffff;
-            padding: 20px 0;
-            position: sticky;
-            top: 0;
-            z-index: 1000;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-        }
-        .header-box {
-            display: table;
-            width: 100%;
-        }
-        .brand {
-            display: table-cell;
-            vertical-align: middle;
-            font-size: 20px;
-            font-weight: bold;
-            letter-spacing: 0.5px;
-        }
-        nav {
-            display: table-cell;
-            text-align: right;
-            vertical-align: middle;
-        }
-        nav a {
-            color: #ffffff;
-            text-decoration: none;
-            margin-left: 20px;
-            font-size: 14px;
-            font-weight: 500;
-            transition: color 0.3s;
-        }
-        nav a:hover {
-            color: #d4a373;
-        }
+            /* HEADER & NAVIGATION */
+            header {
+                background-color: #2a5c43;
+                color: #ffffff;
+                padding: 20px 0;
+                position: sticky;
+                top: 0;
+                z-index: 1000;
+                box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            }
+            .header-box {
+                display: table;
+                width: 100%;
+            }
+            .brand {
+                display: table-cell;
+                vertical-align: middle;
+                font-size: 20px;
+                font-weight: bold;
+                letter-spacing: 0.5px;
+            }
+            nav {
+                display: table-cell;
+                text-align: right;
+                vertical-align: middle;
+            }
+            nav a {
+                color: #ffffff;
+                text-decoration: none;
+                margin-left: 20px;
+                font-size: 14px;
+                font-weight: 500;
+                transition: color 0.3s;
+            }
+            nav a:hover {
+                color: #d4a373;
+            }
 
-        /* HERO SECTION */
-        .hero {
-            background: linear-gradient(rgba(42, 92, 67, 0.85), rgba(42, 92, 67, 0.95)), url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100"><path d="M0 50 Q 25 25, 50 50 T 100 50" fill="none" stroke="%234a7c59" stroke-width="2"/></svg>');
-            color: #ffffff;
-            padding: 80px 0;
-            text-align: center;
-            border-bottom: 5px solid #d4a373;
-        }
-        .hero h1 {
-            font-size: 38px;
-            margin-bottom: 15px;
-            font-weight: 700;
-        }
-        .hero p {
-            font-size: 18px;
-            color: #e2e8f0;
-            max-width: 700px;
-            margin: 0 auto 25px auto;
-        }
-        .meta-info {
-            font-size: 14px;
-            background-color: rgba(0, 0, 0, 0.2);
-            display: inline-block;
-            padding: 10px 20px;
-            border-radius: 4px;
-            border-left: 3px solid #d4a373;
-        }
+            /* HERO SECTION */
+            .hero {
+                background: linear-gradient(rgba(42, 92, 67, 0.85), rgba(42, 92, 67, 0.95)), url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100"><path d="M0 50 Q 25 25, 50 50 T 100 50" fill="none" stroke="%234a7c59" stroke-width="2"/></svg>');
+                color: #ffffff;
+                padding: 80px 0;
+                text-align: center;
+                border-bottom: 5px solid #d4a373;
+            }
+            .hero h1 {
+                font-size: 38px;
+                margin-bottom: 15px;
+                font-weight: 700;
+            }
+            .hero p {
+                font-size: 18px;
+                color: #e2e8f0;
+                max-width: 700px;
+                margin: 0 auto 25px auto;
+            }
+            .meta-info {
+                font-size: 14px;
+                background-color: rgba(0, 0, 0, 0.2);
+                display: inline-block;
+                padding: 10px 20px;
+                border-radius: 4px;
+                border-left: 3px solid #d4a373;
+            }
 
-        /* MAIN CONTENT SECTIONS */
-        section {
-            background-color: #ffffff;
-            padding: 40px;
-            margin-top: 30px;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.04);
-        }
-        h2 {
-            font-size: 22px;
-            color: #2a5c43;
-            margin-bottom: 20px;
-            border-left: 5px solid #2a5c43;
-            padding-left: 12px;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-        }
-        h3 {
-            font-size: 16px;
-            color: #4a7c59;
-            margin: 20px 0 10px 0;
-        }
-        p {
-            margin-bottom: 15px;
-            text-align: justify;
-        }
+            /* MAIN CONTENT SECTIONS */
+            section {
+                background-color: #ffffff;
+                padding: 40px;
+                margin-top: 30px;
+                border-radius: 8px;
+                box-shadow: 0 2px 4px rgba(0,0,0,0.04);
+            }
+            h2 {
+                font-size: 22px;
+                color: #2a5c43;
+                margin-bottom: 20px;
+                border-left: 5px solid #2a5c43;
+                padding-left: 12px;
+                text-transform: uppercase;
+                letter-spacing: 0.5px;
+            }
+            h3 {
+                font-size: 16px;
+                color: #4a7c59;
+                margin: 20px 0 10px 0;
+            }
+            p {
+                margin-bottom: 15px;
+                text-align: justify;
+            }
 
-        /* GRID/CARD EMBED ALTERNATIVE */
-        .row {
-            display: table;
-            width: 100%;
-            table-layout: fixed;
-            margin-top: 15px;
-        }
-        .col {
-            display: table-cell;
-            padding: 10px;
-            vertical-align: top;
-        }
-        .card {
-            background-color: #f4f7f5;
-            padding: 20px;
-            border-radius: 6px;
-            border-top: 3px solid #4a7c59;
-            height: 100%;
-        }
-        .card-title {
-            font-weight: bold;
-            color: #2a5c43;
-            margin-bottom: 10px;
-            font-size: 15px;
-        }
+            /* GRID/CARD EMBED ALTERNATIVE */
+            .row {
+                display: table;
+                width: 100%;
+                table-layout: fixed;
+                margin-top: 15px;
+            }
+            .col {
+                display: table-cell;
+                padding: 10px;
+                vertical-align: top;
+            }
+            .card {
+                background-color: #f4f7f5;
+                padding: 20px;
+                border-radius: 6px;
+                border-top: 3px solid #4a7c59;
+                height: 100%;
+            }
+            .card-title {
+                font-weight: bold;
+                color: #2a5c43;
+                margin-bottom: 10px;
+                font-size: 15px;
+            }
 
-        /* TABLES */
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin: 20px 0;
-            font-size: 14px;
-        }
-        th, td {
-            border: 1px solid #e2e8f0;
-            padding: 12px 15px;
-            text-align: left;
-            vertical-align: top;
-        }
-        th {
-            background-color: #2a5c43;
-            color: #ffffff;
-            font-weight: 600;
-        }
-        tr:nth-child(even) {
-            background-color: #f8faf9;
-        }
-        .phase-header {
-            background-color: #e2f0e8 !important;
-            font-weight: bold;
-            color: #2a5c43;
-        }
+            /* TABLES */
+            table {
+                width: 100%;
+                border-collapse: collapse;
+                margin: 20px 0;
+                font-size: 14px;
+            }
+            th, td {
+                border: 1px solid #e2e8f0;
+                padding: 12px 15px;
+                text-align: left;
+                vertical-align: top;
+            }
+            th {
+                background-color: #2a5c43;
+                color: #ffffff;
+                font-weight: 600;
+            }
+            tr:nth-child(even) {
+                background-color: #f8faf9;
+            }
+            .phase-header {
+                background-color: #e2f0e8 !important;
+                font-weight: bold;
+                color: #2a5c43;
+            }
 
-        /* GANTT VISUAL SIMULATION */
-        .gantt-table th {
-            text-align: center;
-        }
-        .gantt-table td {
-            text-align: center;
-        }
-        .gantt-table td.left-align {
-            text-align: left;
-        }
-        .fill-cell {
-            background-color: #d4a373 !important;
-            color: #ffffff;
-            font-weight: bold;
-        }
-        .perm-cell {
-            background-color: #a3b899 !important;
-            color: #ffffff;
-        }
+            /* GANTT VISUAL SIMULATION */
+            .gantt-table th {
+                text-align: center;
+            }
+            .gantt-table td {
+                text-align: center;
+            }
+            .gantt-table td.left-align {
+                text-align: left;
+            }
+            .fill-cell {
+                background-color: #d4a373 !important;
+                color: #ffffff;
+                font-weight: bold;
+            }
+            .perm-cell {
+                background-color: #a3b899 !important;
+                color: #ffffff;
+            }
 
-        /* LISTS */
-        ul, ol {
-            margin-left: 25px;
-            margin-bottom: 15px;
-        }
-        li {
-            margin-bottom: 8px;
-        }
+            /* LISTS */
+            ul, ol {
+                margin-left: 25px;
+                margin-bottom: 15px;
+            }
+            li {
+                margin-bottom: 8px;
+            }
 
-        /* REFLECTION PARAGRAPHS */
-        .reflection-p {
-            background-color: #fdfbf7;
-            padding: 15px 20px;
-            border-left: 4px solid #d4a373;
-            margin-bottom: 20px;
-            border-radius: 0 4px 4px 0;
-            font-style: italic;
-        }
+            /* REFLECTION PARAGRAPHS */
+            .reflection-p {
+                background-color: #fdfbf7;
+                padding: 15px 20px;
+                border-left: 4px solid #d4a373;
+                margin-bottom: 20px;
+                border-radius: 0 4px 4px 0;
+                font-style: italic;
+            }
 
-        /* FOOTER */
-        footer {
-            background-color: #2d3748;
-            color: #a0aec0;
-            text-align: center;
-            padding: 25px 0;
-            margin-top: 50px;
-            font-size: 13px;
-            border-top: 3px solid #2a5c43;
-        }
-    </style>
-</head>
-<body>
+            /* FOOTER */
+            footer {
+                background-color: #2d3748;
+                color: #a0aec0;
+                text-align: center;
+                padding: 25px 0;
+                margin-top: 50px;
+                font-size: 13px;
+                border-top: 3px solid #2a5c43;
+            }
+        </style>
+    </head>
+    <body>
 
-    <header>
-        <div class="container">
-            <div class="header-box">
-                <div class="brand">Portafolio Digital SEP</div>
-                <nav>
-                    <a href="#presentacion">Diagnóstico</a>
-                    <a href="#objetivos">Objetivos</a>
-                    <a href="#organizacion">Organización</a>
-                    <a href="#gestion">Gestión</a>
-                    <a href="#control">Control</a>
-                    <a href="#reflexion">Reflexión</a>
-                </nav>
-            </div>
-        </div>
-    </header>
-
-    <div class="hero">
-        <div class="container">
-            <h1>Mi Banqueta Verde y Limpia</h1>
-            <p>Estrategia de Urbanismo Táctico y Trabajo Colaborativo para la Recuperación y Dignificación de Espacios Peatonales Críticos.</p>
-            <div class="meta-info">
-                <strong>Autor:</strong> Carmona Perez Angelica | 
-                <strong>Ubicación:</strong> Col. Emiliano Zapata, Iztapalapa | 
-                <strong>Módulo:</strong> 23 
-            </div>
-        </div>
-    </div>
-
-    <div class="container">
-
-        <section id="presentacion">
-            <h2>1. Diagnóstico y Presentación del Proyecto</h2>
-            <p>El proyecto <strong> Mi Banqueta Verde y Limpia </strong> se centra en el rescate de espacios peatonales y la erradicación de tiraderos clandestinos de basura mediante la metodología del urbanismo táctico. Esta problemática es de gran relevancia en el entorno local de la colonia Emiliano Zapata, en la alcaldía Iztapalapa, ya que la acumulación crónica de residuos sólidos en la vía pública vulnera el derecho a la movilidad segura, deteriora el tejido comunitario y genera riesgos latentes para la salud pública.</p>
-            
-            <div class="row">
-                <div class="col">
-                    <div class="card">
-                        <div class="card-title">Causas Principales</div>
-                        <ul>
-                            <li>Desfase de horarios y rutas del camión recolector de basura municipal.</li>
-                            <li>Fuerte apatía comunitaria y falta de canales de organización vecinal.</li>
-                            <li>Pérdida del sentido de pertenencia y corresponsabilidad sobre el espacio público común.</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card">
-                        <div class="card-title">Efectos Críticos</div>
-                        <ul>
-                            <li>Obstrucción de la movilidad peatonal segura, obligando a niños y adultos mayores a transitar por el arroyo vehicular.</li>
-                            <li>Creación de focos de infección crónicos y proliferación de fauna nociva (plagas).</li>
-                            <li>Inundaciones locales causadas por la obstrucción de coladeras con bolsas de residuos sueltas.</li>
-                        </ul>
-                    </div>
+        <header>
+            <div class="container">
+                <div class="header-box">
+                    <div class="brand">Portafolio Digital SEP</div>
+                    <nav>
+                        <a href="#presentacion">Diagnóstico</a>
+                        <a href="#objetivos">Objetivos</a>
+                        <a href="#organizacion">Organización</a>
+                        <a href="#gestion">Gestión</a>
+                        <a href="#control">Control</a>
+                        <a href="#reflexion">Reflexión</a>
+                    </nav>
                 </div>
             </div>
-        </section>
+        </header>
 
-        <section id="objetivos">
-            <h2>2. Objetivos y Metas del Proyecto</h2>
-            <h3>Objetivo General</h3>
-            <p style="font-size: 16px; background-color: #f0fdf4; padding: 15px; border-radius: 4px; border: 1px solid #bbf7d0; color: #166534;">
-                <em>"Erradicar, durante el periodo vacacional de julio de 2026, los tiraderos clandestinos de basura en las banquetas de la colonia Emiliano Zapata en Iztapalapa, para recuperar el paso peatonal seguro y mejorar la imagen urbana; a través del trabajo colaborativo vecinal y la instalación de macetas ecológicas elaboradas con materiales reciclados."</em>
-            </p>
+        <div class="hero">
+            <div class="container">
+                <h1>Mi Banqueta Verde y Limpia</h1>
+                <p>Estrategia de Urbanismo Táctico y Trabajo Colaborativo para la Recuperación y Dignificación de Espacios Peatonales Críticos.</p>
+                <div class="meta-info">
+                    <strong>Autor:</strong> Carmona Perez Angelica | 
+                    <strong>Ubicación:</strong> Col. Emiliano Zapata, Iztapalapa | 
+                    <strong>Módulo:</strong> 23 
+                </div>
+            </div>
+        </div>
 
-            <h3>Desglose de Objetivos Específicos y Metas Medibles</h3>
-            <table>
-                <thead>
-                    <tr>
-                        <th style="width: 45%;">Objetivo Específico</th>
-                        <th style="width: 55%;">Metas Cuantificables y Temporales</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td><strong>1. Gestión e Insumos:</strong> Recolectar al menos 10 llantas y botes usados, tierra y pintura, mediante la gestión de donaciones con los vecinos y pequeños comercios locales de la colonia durante las primeras dos semanas de julio de 2026, asegurando insumos sin costos financieros.</td>
-                        <td>
+        <div class="container">
+
+            <section id="presentacion">
+                <h2>1. Diagnóstico y Presentación del Proyecto</h2>
+                <p>El proyecto <strong> Mi Banqueta Verde y Limpia </strong> se centra en el rescate de espacios peatonales y la erradicación de tiraderos clandestinos de basura mediante la metodología del urbanismo táctico. Esta problemática es de gran relevancia en el entorno local de la colonia Emiliano Zapata, en la alcaldía Iztapalapa, ya que la acumulación crónica de residuos sólidos en la vía pública vulnera el derecho a la movilidad segura, deteriora el tejido comunitario y genera riesgos latentes para la salud pública.</p>
+                
+                <div class="row">
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-title">Causas Principales</div>
                             <ul>
-                                <li>Reunir exactamente 10 contenedores reciclados (llantas o botes de 20L) durante los primeros 7 días de julio.</li>
-                                <li>Conseguir la donación de al menos 2 litros de pintura sobrante y 3 costales de tierra fértil antes del 14 de julio.</li>
-                                <li>Sumar a un mínimo de 10 vecinos activos al canal de comunicación digital (WhatsApp) durante la primera semana.</li>
+                                <li>Desfase de horarios y rutas del camión recolector de basura municipal.</li>
+                                <li>Fuerte apatía comunitaria y falta de canales de organización vecinal.</li>
+                                <li>Pérdida del sentido de pertenencia y corresponsabilidad sobre el espacio público común.</li>
                             </ul>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td><strong>2. Ejecución de Jornada:</strong> Organizar una jornada comunitaria de limpieza, pintura y siembra con las familias voluntarias durante la tercera semana de julio de 2026, para transformar físicamente y de manera colaborativa los 3 puntos críticos de la banqueta.</td>
-                        <td>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-title">Efectos Críticos</div>
                             <ul>
-                                <li>Confirmar la asistencia y distribución de tareas de un mínimo de 5 familias voluntarias dos días antes de la jornada.</li>
-                                <li>Limpiar al 100% los 3 puntos críticos de la banqueta durante las primeras dos horas de la jornada del sábado 18 de julio.</li>
-                                <li>Pintar artísticamente los 10 contenedores y sembrar al menos 15 plantas tipo suculenta durante la misma tarde.</li>
+                                <li>Obstrucción de la movilidad peatonal segura, obligando a niños y adultos mayores a transitar por el arroyo vehicular.</li>
+                                <li>Creación de focos de infección crónicos y proliferación de fauna nociva (plagas).</li>
+                                <li>Inundaciones locales causadas por la obstrucción de coladeras con bolsas de residuos sueltas.</li>
                             </ul>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td><strong>3. Sostenibilidad:</strong> Instalar las macetas ecológicas terminadas en los espacios limpios y establecer un rol impreso de riego rotativo entre los vecinos durante la última semana de julio de 2026, para garantizar el mantenimiento a largo plazo y bloquear el abandono de residuos.</td>
-                        <td>
-                            <ul>
-                                <li>Trasladar y fijar las 10 macetas en las esquinas recuperadas antes del 31 de julio de 2026.</li>
-                                <li>Imprimir y plastificar 1 calendario de riego comunitario, colocándolo en el muro más visible de la cuadra.</li>
-                                <li>Asignar formalmente a 4 familias distintas un día de riego a la semana para asegurar la subsistencia de las plantas el primer mes.</li>
-                            </ul>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-        </section>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
-        <section id="organizacion">
-            <h2>3. Estrategia de Solución y División del Trabajo</h2>
-            <p>A través del análisis cuantitativo de viabilidad, se seleccionó la estrategia de <strong>Trabajo Colaborativo Vecinal</strong> frente a opciones como la gestión gubernamental exclusiva (lenta e incierta) o la contratación de servicios privados (financieramente insostenible). El trabajo vecinal reduce el costo económico a prácticamente cero y construye el tejido social necesario para la autovigilancia y sustentabilidad del espacio.</p>
+            <section id="objetivos">
+                <h2>2. Objetivos y Metas del Proyecto</h2>
+                <h3>Objetivo General</h3>
+                <p style="font-size: 16px; background-color: #f0fdf4; padding: 15px; border-radius: 4px; border: 1px solid #bbf7d0; color: #166534;">
+                    <em>"Erradicar, durante el periodo vacacional de julio de 2026, los tiraderos clandestinos de basura en las banquetas de la colonia Emiliano Zapata en Iztapalapa, para recuperar el paso peatonal seguro y mejorar la imagen urbana; a través del trabajo colaborativo vecinal y la instalación de macetas ecológicas elaboradas con materiales reciclados."</em>
+                </p>
 
-            <h3>Estructura Organizacional del Personal (División del Trabajo)</h3>
-            <ul>
-                <li><strong>Coordinador General (Líder del Proyecto - YO):</strong> Responsable del diseño metodológico, moderación de juntas vecinales, mapeo técnico, diseño del calendario de riego y monitoreo mensual del espacio. Colabora en todas las etapas.</li>
-                <li><strong>Comisión Vecinal de Recolección:</strong> Integrada por vecinos con facilidad de palabra y arraigo en la colonia. Encargados de gestionar las donaciones de botes, llantas, pintura sobrante y tierra fértil con residentes y comercios locales (Fase Inicial).</li>
-                <li><strong>Cuadrilla de Familias Voluntarias:</strong> Grupo operativo de vecinos y jóvenes de la cuadra con disposición de tiempo. Encargados del barrido profundo, remoción de focos de infección, lavado, pintado de macetas, siembra y traslado físico de los contenedores pesados (Fase de Desarrollo).</li>
-                <li><strong>Red de Cuidadores (Familias en Turno de Riego):</strong> Encargados de cumplir el rol de mantenimiento de las plantas (1 día a la semana) y actuar como vigilantes cotidianos para inhibir que transeúntes vuelvan a arrojar bolsas en los puntos rescatados (Fase de Consecución).</li>
-            </ul>
-        </section>
-
-        <section id="gestion">
-            <h2>4. Planificación y Tabla de Gestión Completa</h2>
-            <p>A continuación se detalla la matriz que consolida las tareas operativas estructuradas cronológicamente para el periodo vacacional de julio de 2026, identificando los recursos necesarios por cada actividad.</p>
-            
-            <div style="overflow-x: auto;">
+                <h3>Desglose de Objetivos Específicos y Metas Medibles</h3>
                 <table>
                     <thead>
                         <tr>
-                            <th>Actividades y Tareas</th>
-                            <th>Duración</th>
-                            <th>Inicio</th>
-                            <th>Término</th>
-                            <th>R. Materiales</th>
-                            <th>R. Tecnológicos</th>
-                            <th>R. Financieros</th>
-                            <th>Responsables</th>
+                            <th style="width: 45%;">Objetivo Específico</th>
+                            <th style="width: 55%;">Metas Cuantificables y Temporales</th>
                         </tr>
                     </thead>
                     <tbody>
-                        <tr class="phase-header">
-                            <td colspan="8">PRIMERA FASE: ACTIVIDADES PREVIAS</td>
+                        <tr>
+                            <td><strong>1. Gestión e Insumos:</strong> Recolectar al menos 10 llantas y botes usados, tierra y pintura, mediante la gestión de donaciones con los vecinos y pequeños comercios locales de la colonia durante las primeras dos semanas de julio de 2026, asegurando insumos sin costos financieros.</td>
+                            <td>
+                                <ul>
+                                    <li>Reunir exactamente 10 contenedores reciclados (llantas o botes de 20L) durante los primeros 7 días de julio.</li>
+                                    <li>Conseguir la donación de al menos 2 litros de pintura sobrante y 3 costales de tierra fértil antes del 14 de julio.</li>
+                                    <li>Sumar a un mínimo de 10 vecinos activos al canal de comunicación digital (WhatsApp) durante la primera semana.</li>
+                                </ul>
+                            </td>
                         </tr>
                         <tr>
-                            <td><strong>Act. 1:</strong> Organizar a la comunidad vecinal.<br><em>T 1.1:</em> Crear grupo de WhatsApp.<br><em>T 1.2:</em> Realizar junta presencial.</td>
-                            <td>7 días</td>
-                            <td>01/Jul/2026</td>
-                            <td>07/Jul/2026</td>
-                            <td>Cuaderno de notas y pluma.</td>
-                            <td>Celular inteligente con acceso a Internet.</td>
-                            <td>$0</td>
-                            <td>Líder del Proyecto</td>
+                            <td><strong>2. Ejecución de Jornada:</strong> Organizar una jornada comunitaria de limpieza, pintura y siembra con las familias voluntarias durante la tercera semana de julio de 2026, para transformar físicamente y de manera colaborativa los 3 puntos críticos de la banqueta.</td>
+                            <td>
+                                <ul>
+                                    <li>Confirmar la asistencia y distribución de tareas de un mínimo de 5 familias voluntarias dos días antes de la jornada.</li>
+                                    <li>Limpiar al 100% los 3 puntos críticos de la banqueta durante las primeras dos horas de la jornada del sábado 18 de julio.</li>
+                                    <li>Pintar artísticamente los 10 contenedores y sembrar al menos 15 plantas tipo suculenta durante la misma tarde.</li>
+                                </ul>
+                            </td>
                         </tr>
                         <tr>
-                            <td><strong>Act. 2:</strong> Recolectar materiales e insumos.<br><em>T 2.1:</em> Buscar donaciones de llantas/botes.<br><em>T 2.2:</em> Acopiar tierra y plantas suculentas.</td>
-                            <td>14 días</td>
-                            <td>01/Jul/2026</td>
-                            <td>14/Jul/2026</td>
-                            <td>Bolsas de lona resistentes para carga.</td>
-                            <td>Celular, redes sociales (Facebook local).</td>
-                            <td>$150 (Fondo para tierra faltante)</td>
-                            <td>Comisión de Recolección</td>
-                        </tr>
-                        <tr class="phase-header">
-                            <td colspan="8">SEGUNDA FASE: ACTIVIDADES DE DESARROLLO</td>
-                        </tr>
-                        <tr>
-                            <td><strong>Act. 3:</strong> Acondicionar espacios y materiales.<br><em>T 3.1:</em> Limpiar los 3 puntos críticos de banqueta.<br><em>T 3.2:</em> Lavar y pintar botes y llantas.</td>
-                            <td>1 día<br>(Sábado)</td>
-                            <td>18/Jul/2026</td>
-                            <td>18/Jul/2026</td>
-                            <td>Escobas, bolsas de basura, brochas, pintura.</td>
-                            <td>Bocina portátil (ambientación).</td>
-                            <td>$0</td>
-                            <td>Cuadrilla de Familias Voluntarias</td>
-                        </tr>
-                        <tr>
-                            <td><strong>Act. 4:</strong> Armado y colocación de macetas.<br><em>T 4.1:</em> Rellenar con tierra y sembrar plantas.<br><em>T 4.2:</em> Trasladar macetas con diablito.</td>
-                            <td>1 día<br>(Sábado)</td>
-                            <td>18/Jul/2026</td>
-                            <td>18/Jul/2026</td>
-                            <td>Tierra fértil, plantas, agua, palas.</td>
-                            <td>Ninguno.</td>
-                            <td>$0</td>
-                            <td>Cuadrilla de Familias Voluntarias</td>
-                        </tr>
-                        <tr class="phase-header">
-                            <td colspan="8">TERCERA FASE: ACTIVIDADES DE CONSECUCIÓN</td>
-                        </tr>
-                        <tr>
-                            <td><strong>Act. 5:</strong> Establecer sistema de mantenimiento.<br><em>T 5.1:</em> Diseñar e imprimir calendario.<br><em>T 5.2:</em> Pegar el calendario en poste público.</td>
-                            <td>3 días</td>
-                            <td>22/Jul/2026</td>
-                            <td>24/Jul/2026</td>
-                            <td>Hojas blancas, tinta, cinta adhesiva.</td>
-                            <td>Computadora, software básico e impresora.</td>
-                            <td>$10 (Costo de impresiones)</td>
-                            <td>Líder del Proyecto</td>
-                        </tr>
-                        <tr>
-                            <td><strong>Act. 6:</strong> Evaluación y seguimiento permanente.<br><em>T 6.1:</em> Enviar recordatorios de riego.<br><em>T 6.2:</em> Recorridos visuales preventivos.</td>
-                            <td>Permanente</td>
-                            <td>25/Jul/2026</td>
-                            <td>Permanente</td>
-                            <td>Ninguno.</td>
-                            <td>Celular con WhatsApp y cámara.</td>
-                            <td>$0</td>
-                            <td>Líder y Red de Cuidadores</td>
+                            <td><strong>3. Sostenibilidad:</strong> Instalar las macetas ecológicas terminadas en los espacios limpios y establecer un rol impreso de riego rotativo entre los vecinos durante la última semana de julio de 2026, para garantizar el mantenimiento a largo plazo y bloquear el abandono de residuos.</td>
+                            <td>
+                                <ul>
+                                    <li>Trasladar y fijar las 10 macetas en las esquinas recuperadas antes del 31 de julio de 2026.</li>
+                                    <li>Imprimir y plastificar 1 calendario de riego comunitario, colocándolo en el muro más visible de la cuadra.</li>
+                                    <li>Asignar formalmente a 4 familias distintas un día de riego a la semana para asegurar la subsistencia de las plantas el primer mes.</li>
+                                </ul>
+                            </td>
                         </tr>
                     </tbody>
                 </table>
-            </div>
-        </section>
+            </section>
 
-        <section id="cronograma">
-            <h2>5. Cronograma de Actividades (Gráfica de Gantt)</h2>
-            <p>Representación visual del flujo de trabajo planeado secuencialmente a lo largo de las cuatro semanas que componen el mes vacacional de julio de 2026:</p>
-            
-            <div style="overflow-x: auto;">
-                <table class="gantt-table">
+            <section id="organizacion">
+                <h2>3. Estrategia de Solución y División del Trabajo</h2>
+                <p>A través del análisis cuantitativo de viabilidad, se seleccionó la estrategia de <strong>Trabajo Colaborativo Vecinal</strong> frente a opciones como la gestión gubernamental exclusiva (lenta e incierta) o la contratación de servicios privados (financieramente insostenible). El trabajo vecinal reduce el costo económico a prácticamente cero y construye el tejido social necesario para la autovigilancia y sustentabilidad del espacio.</p>
+
+                <h3>Estructura Organizacional del Personal (División del Trabajo)</h3>
+                <ul>
+                    <li><strong>Coordinador General (Líder del Proyecto - YO):</strong> Responsable del diseño metodológico, moderación de juntas vecinales, mapeo técnico, diseño del calendario de riego y monitoreo mensual del espacio. Colabora en todas las etapas.</li>
+                    <li><strong>Comisión Vecinal de Recolección:</strong> Integrada por vecinos con facilidad de palabra y arraigo en la colonia. Encargados de gestionar las donaciones de botes, llantas, pintura sobrante y tierra fértil con residentes y comercios locales (Fase Inicial).</li>
+                    <li><strong>Cuadrilla de Familias Voluntarias:</strong> Grupo operativo de vecinos y jóvenes de la cuadra con disposición de tiempo. Encargados del barrido profundo, remoción de focos de infección, lavado, pintado de macetas, siembra y traslado físico de los contenedores pesados (Fase de Desarrollo).</li>
+                    <li><strong>Red de Cuidadores (Familias en Turno de Riego):</strong> Encargados de cumplir el rol de mantenimiento de las plantas (1 día a la semana) y actuar como vigilantes cotidianos para inhibir que transeúntes vuelvan a arrojar bolsas en los puntos rescatados (Fase de Consecución).</li>
+                </ul>
+            </section>
+
+            <section id="gestion">
+                <h2>4. Planificación y Tabla de Gestión Completa</h2>
+                <p>A continuación se detalla la matriz que consolida las tareas operativas estructuradas cronológicamente para el periodo vacacional de julio de 2026, identificando los recursos necesarios por cada actividad.</p>
+                
+                <div style="overflow-x: auto;">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Actividades y Tareas</th>
+                                <th>Duración</th>
+                                <th>Inicio</th>
+                                <th>Término</th>
+                                <th>R. Materiales</th>
+                                <th>R. Tecnológicos</th>
+                                <th>R. Financieros</th>
+                                <th>Responsables</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="phase-header">
+                                <td colspan="8">PRIMERA FASE: ACTIVIDADES PREVIAS</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Act. 1:</strong> Organizar a la comunidad vecinal.<br><em>T 1.1:</em> Crear grupo de WhatsApp.<br><em>T 1.2:</em> Realizar junta presencial.</td>
+                                <td>7 días</td>
+                                <td>01/Jul/2026</td>
+                                <td>07/Jul/2026</td>
+                                <td>Cuaderno de notas y pluma.</td>
+                                <td>Celular inteligente con acceso a Internet.</td>
+                                <td>$0</td>
+                                <td>Líder del Proyecto</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Act. 2:</strong> Recolectar materiales e insumos.<br><em>T 2.1:</em> Buscar donaciones de llantas/botes.<br><em>T 2.2:</em> Acopiar tierra y plantas suculentas.</td>
+                                <td>14 días</td>
+                                <td>01/Jul/2026</td>
+                                <td>14/Jul/2026</td>
+                                <td>Bolsas de lona resistentes para carga.</td>
+                                <td>Celular, redes sociales (Facebook local).</td>
+                                <td>$150 (Fondo para tierra faltante)</td>
+                                <td>Comisión de Recolección</td>
+                            </tr>
+                            <tr class="phase-header">
+                                <td colspan="8">SEGUNDA FASE: ACTIVIDADES DE DESARROLLO</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Act. 3:</strong> Acondicionar espacios y materiales.<br><em>T 3.1:</em> Limpiar los 3 puntos críticos de banqueta.<br><em>T 3.2:</em> Lavar y pintar botes y llantas.</td>
+                                <td>1 día<br>(Sábado)</td>
+                                <td>18/Jul/2026</td>
+                                <td>18/Jul/2026</td>
+                                <td>Escobas, bolsas de basura, brochas, pintura.</td>
+                                <td>Bocina portátil (ambientación).</td>
+                                <td>$0</td>
+                                <td>Cuadrilla de Familias Voluntarias</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Act. 4:</strong> Armado y colocación de macetas.<br><em>T 4.1:</em> Rellenar con tierra y sembrar plantas.<br><em>T 4.2:</em> Trasladar macetas con diablito.</td>
+                                <td>1 día<br>(Sábado)</td>
+                                <td>18/Jul/2026</td>
+                                <td>18/Jul/2026</td>
+                                <td>Tierra fértil, plantas, agua, palas.</td>
+                                <td>Ninguno.</td>
+                                <td>$0</td>
+                                <td>Cuadrilla de Familias Voluntarias</td>
+                            </tr>
+                            <tr class="phase-header">
+                                <td colspan="8">TERCERA FASE: ACTIVIDADES DE CONSECUCIÓN</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Act. 5:</strong> Establecer sistema de mantenimiento.<br><em>T 5.1:</em> Diseñar e imprimir calendario.<br><em>T 5.2:</em> Pegar el calendario en poste público.</td>
+                                <td>3 días</td>
+                                <td>22/Jul/2026</td>
+                                <td>24/Jul/2026</td>
+                                <td>Hojas blancas, tinta, cinta adhesiva.</td>
+                                <td>Computadora, software básico e impresora.</td>
+                                <td>$10 (Costo de impresiones)</td>
+                                <td>Líder del Proyecto</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Act. 6:</strong> Evaluación y seguimiento permanente.<br><em>T 6.1:</em> Enviar recordatorios de riego.<br><em>T 6.2:</em> Recorridos visuales preventivos.</td>
+                                <td>Permanente</td>
+                                <td>25/Jul/2026</td>
+                                <td>Permanente</td>
+                                <td>Ninguno.</td>
+                                <td>Celular con WhatsApp y cámara.</td>
+                                <td>$0</td>
+                                <td>Líder y Red de Cuidadores</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <section id="cronograma">
+                <h2>5. Cronograma de Actividades (Gráfica de Gantt)</h2>
+                <p>Representación visual del flujo de trabajo planeado secuencialmente a lo largo de las cuatro semanas que componen el mes vacacional de julio de 2026:</p>
+                
+                <div style="overflow-x: auto;">
+                    <table class="gantt-table">
+                        <thead>
+                            <tr>
+                                <th rowspan="2" style="width: 40%; text-align: left;">Actividades del Proyecto</th>
+                                <th colspan="7">Semana 1</th>
+                                <th colspan="7">Semana 2</th>
+                                <th colspan="7">Semana 3</th>
+                                <th colspan="10">Semana 4 (Al Cierre)</th>
+                            </tr>
+                            <tr>
+                                <th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>6</th><th>7</th>
+                                <th>8</th><th>9</th><th>10</th><th>11</th><th>12</th><th>13</th><th>14</th>
+                                <th>15</th><th>16</th><th>17</th><th style="background-color:#c57d3d; color:white;">18</th><th>19</th><th>20</th><th>21</th>
+                                <th>22</th><th>23</th><th>24</th><th>25</th><th>26</th><th>27</th><th>28</th><th>29</th><th>30</th><th>31</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="left-align">1. Organizar comunidad (WhatsApp / Junta)</td>
+                                <td class="fill-cell">X</td><td class="fill-cell">X</td><td class="fill-cell">X</td><td class="fill-cell">X</td><td class="fill-cell">X</td><td class="fill-cell">X</td><td class="fill-cell">X</td>
+                                <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+                            </tr>
+                            <tr>
+                                <td class="left-align">2. Recolectar donaciones de insumos y plantas</td>
+                                <td class="fill-cell">X</td><td class="fill-cell">X</td><td class="fill-cell">X</td><td class="fill-cell">X</td><td class="fill-cell">X</td><td class="fill-cell">X</td><td class="fill-cell">X</td>
+                                <td class="fill-cell">X</td><td class="fill-cell">X</td><td class="fill-cell">X</td><td class="fill-cell">X</td><td class="fill-cell">X</td><td class="fill-cell">X</td><td class="fill-cell">X</td>
+                                <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+                            </tr>
+                            <tr>
+                                <td class="left-align">3. Limpieza profunda de banquetas y pintar macetas</td>
+                                <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td class="fill-cell">X</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+                            </tr>
+                            <tr>
+                                <td class="left-align">4. Sembrar plantas y colocar macetas en esquinas</td>
+                                <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td class="fill-cell">X</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+                            </tr>
+                            <tr>
+                                <td class="left-align">5. Diseñar, imprimir y pegar el rol oficial de riego</td>
+                                <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+                                <td class="fill-cell">X</td><td class="fill-cell">X</td><td class="fill-cell">X</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+                            </tr>
+                            <tr>
+                                <td class="left-align">6. Mantenimiento, riego semanal y vigilancia vecinal</td>
+                                <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+                                <td class="perm-cell">P</td><td class="perm-cell">P</td><td class="perm-cell">P</td><td class="perm-cell">P</td><td class="perm-cell">P</td><td class="perm-cell">P</td><td class="perm-cell">P</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <section id="control">
+                <h2>6. Control de Calidad: Escenarios y Estándares</h2>
+                
+                <h3>Gestión de Contingencias (Matriz de Escenarios)</h3>
+                <table>
                     <thead>
                         <tr>
-                            <th rowspan="2" style="width: 40%; text-align: left;">Actividades del Proyecto</th>
-                            <th colspan="7">Semana 1</th>
-                            <th colspan="7">Semana 2</th>
-                            <th colspan="7">Semana 3</th>
-                            <th colspan="10">Semana 4 (Al Cierre)</th>
-                        </tr>
-                        <tr>
-                            <th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>6</th><th>7</th>
-                            <th>8</th><th>9</th><th>10</th><th>11</th><th>12</th><th>13</th><th>14</th>
-                            <th>15</th><th>16</th><th>17</th><th style="background-color:#c57d3d; color:white;">18</th><th>19</th><th>20</th><th>21</th>
-                            <th>22</th><th>23</th><th>24</th><th>25</th><th>26</th><th>27</th><th>28</th><th>29</th><th>30</th><th>31</th>
+                            <th style="width: 25%;">Escenario detectado</th>
+                            <th style="width: 35%;">Propuesta de Solución y Enfoque</th>
+                            <th style="width: 40%;">Acciones Concretas Inmediatas</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td class="left-align">1. Organizar comunidad (WhatsApp / Junta)</td>
-                            <td class="fill-cell">X</td><td class="fill-cell">X</td><td class="fill-cell">X</td><td class="fill-cell">X</td><td class="fill-cell">X</td><td class="fill-cell">X</td><td class="fill-cell">X</td>
-                            <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+                            <td style="color: #15803d; font-weight: bold;">EL MEJOR ESCENARIO:<br>Alta participación y cumplimiento</td>
+                            <td>Mantener el entusiasmo vecinal, reconocer públicamente el esfuerzo y afianzar la transparencia.</td>
+                            <td>
+                                1. Difundir fotos comparativas ("antes y después") en el chat comunitario felicitando a las familias.<br>
+                                2. Evaluar formalmente en asamblea expandir la iniciativa a la siguiente cuadra en el próximo ciclo.
+                            </td>
                         </tr>
                         <tr>
-                            <td class="left-align">2. Recolectar donaciones de insumos y plantas</td>
-                            <td class="fill-cell">X</td><td class="fill-cell">X</td><td class="fill-cell">X</td><td class="fill-cell">X</td><td class="fill-cell">X</td><td class="fill-cell">X</td><td class="fill-cell">X</td>
-                            <td class="fill-cell">X</td><td class="fill-cell">X</td><td class="fill-cell">X</td><td class="fill-cell">X</td><td class="fill-cell">X</td><td class="fill-cell">X</td><td class="fill-cell">X</td>
-                            <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
-                        </tr>
-                        <tr>
-                            <td class="left-align">3. Limpieza profunda de banquetas y pintar macetas</td>
-                            <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
-                            <td></td><td></td><td></td><td class="fill-cell">X</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
-                        </tr>
-                        <tr>
-                            <td class="left-align">4. Sembrar plantas y colocar macetas en esquinas</td>
-                            <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
-                            <td></td><td></td><td></td><td class="fill-cell">X</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
-                        </tr>
-                        <tr>
-                            <td class="left-align">5. Diseñar, imprimir y pegar el rol oficial de riego</td>
-                            <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
-                            <td></td><td></td><td></td><td></td><td></td><td></td><td></td>
-                            <td class="fill-cell">X</td><td class="fill-cell">X</td><td class="fill-cell">X</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
-                        </tr>
-                        <tr>
-                            <td class="left-align">6. Mantenimiento, riego semanal y vigilancia vecinal</td>
-                            <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
-                            <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
-                            <td class="perm-cell">P</td><td class="perm-cell">P</td><td class="perm-cell">P</td><td class="perm-cell">P</td><td class="perm-cell">P</td><td class="perm-cell">P</td><td class="perm-cell">P</td>
+                            <td style="color: #b91c1c; font-weight: bold;">EL PEOR ESCENARIO:<br>Apatía comunitaria y cero donaciones</td>
+                            <td>Girar de la comunicación digital masiva al acercamiento directo personalizado (puerta a puerta) y buscar patrocinios comerciales locales.</td>
+                            <td>
+                                1. Visitar casa por casa a los residentes clave para explicar de forma empática los beneficios de salubridad.<br>
+                                2. Gestionar donación de tierra con la ferretería o vivero de la colonia a cambio de colocar un letrero de agradecimiento en las macetas terminadas.
+                            </td>
                         </tr>
                     </tbody>
                 </table>
-            </div>
-        </section>
 
-        <section id="control">
-            <h2>6. Control de Calidad: Escenarios y Estándares</h2>
+                <h3>10 Estándares para el Monitoreo del Proyecto</h3>
+                <ol>
+                    <li><strong>Cantidad:</strong> Número de botes o llantas acopiadas de forma efectiva (Métrica de éxito: mínimo 10 unidades).</li>
+                    <li><strong>Cantidad:</strong> Número de familias residentes añadidas e interactuando en el chat del proyecto (Meta: 5 familias iniciales).</li>
+                    <li><strong>Tiempo:</strong> Cumplimiento estricto del periodo de recolección de materiales en los primeros 14 días calendario de julio.</li>
+                    <li><strong>Calidad:</strong> Nivel de limpieza física alcanzado en las 3 esquinas críticas (Métrica: cero presencia de residuos acumulados).</li>
+                    <li><strong>Tiempo:</strong> Concentración de la jornada pesada de pintura, adecuación y siembra en un plazo máximo de 1 día (Sábado 18 de julio).</li>
+                    <li><strong>Calidad:</strong> Tasa de supervivencia de las suculentas sembradas tras el primer mes de exposición climática en la calle.</li>
+                    <li><strong>Calidad:</strong> Resistencia física y adherencia de la pintura en los contenedores ante la intemperie (lluvia/sol).</li>
+                    <li><strong>Cantidad:</strong> Frecuencia de ejecución del riego rotativo obligatorio (Estándar: 1 vez por semana por familia asignada).</li>
+                    <li><strong>Calidad:</strong> Nivel de respuesta positiva y fluidez en la retroalimentación ante los recordatorios en el grupo vecinal.</li>
+                    <li><strong>Cantidad:</strong> Índice de reincidencia de abandono de bolsas de basura por parte de personas externas (Meta: cero incidentes).</li>
+                </ol>
+            </section>
+
+            <section id="reflexion">
+                <h2>7. Implementación Tecnológica e Informe de Reflexión</h2>
+                <p>Se implementaron tecnologías emergentes específicas para viabilizar los flujos de información del proyecto: <strong>WhatsApp</strong> aportó inmediatez y alta accesibilidad para coordinar a los vecinos sin barreras técnicas; los <strong>Grupos de Facebook locales</strong> permitieron extender la búsqueda de donaciones a toda la colonia; y los <strong>Formularios de Google</strong> ayudaron a tabular de forma democrática y ordenada las disponibilidades de horario de los voluntarios.</p>
+                
             
-            <h3>Gestión de Contingencias (Matriz de Escenarios)</h3>
-            <table>
-                <thead>
-                    <tr>
-                        <th style="width: 25%;">Escenario detectado</th>
-                        <th style="width: 35%;">Propuesta de Solución y Enfoque</th>
-                        <th style="width: 40%;">Acciones Concretas Inmediatas</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td style="color: #15803d; font-weight: bold;">EL MEJOR ESCENARIO:<br>Alta participación y cumplimiento</td>
-                        <td>Mantener el entusiasmo vecinal, reconocer públicamente el esfuerzo y afianzar la transparencia.</td>
-                        <td>
-                            1. Difundir fotos comparativas ("antes y después") en el chat comunitario felicitando a las familias.<br>
-                            2. Evaluar formalmente en asamblea expandir la iniciativa a la siguiente cuadra en el próximo ciclo.
-                        </td>
-                    </tr>
-                    <tr>
-                        <td style="color: #b91c1c; font-weight: bold;">EL PEOR ESCENARIO:<br>Apatía comunitaria y cero donaciones</td>
-                        <td>Girar de la comunicación digital masiva al acercamiento directo personalizado (puerta a puerta) y buscar patrocinios comerciales locales.</td>
-                        <td>
-                            1. Visitar casa por casa a los residentes clave para explicar de forma empática los beneficios de salubridad.<br>
-                            2. Gestionar donación de tierra con la ferretería o vivero de la colonia a cambio de colocar un letrero de agradecimiento en las macetas terminadas.
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
+            </section>
 
-            <h3>10 Estándares para el Monitoreo del Proyecto</h3>
-            <ol>
-                <li><strong>Cantidad:</strong> Número de botes o llantas acopiadas de forma efectiva (Métrica de éxito: mínimo 10 unidades).</li>
-                <li><strong>Cantidad:</strong> Número de familias residentes añadidas e interactuando en el chat del proyecto (Meta: 5 familias iniciales).</li>
-                <li><strong>Tiempo:</strong> Cumplimiento estricto del periodo de recolección de materiales en los primeros 14 días calendario de julio.</li>
-                <li><strong>Calidad:</strong> Nivel de limpieza física alcanzado en las 3 esquinas críticas (Métrica: cero presencia de residuos acumulados).</li>
-                <li><strong>Tiempo:</strong> Concentración de la jornada pesada de pintura, adecuación y siembra en un plazo máximo de 1 día (Sábado 18 de julio).</li>
-                <li><strong>Calidad:</strong> Tasa de supervivencia de las suculentas sembradas tras el primer mes de exposición climática en la calle.</li>
-                <li><strong>Calidad:</strong> Resistencia física y adherencia de la pintura en los contenedores ante la intemperie (lluvia/sol).</li>
-                <li><strong>Cantidad:</strong> Frecuencia de ejecución del riego rotativo obligatorio (Estándar: 1 vez por semana por familia asignada).</li>
-                <li><strong>Calidad:</strong> Nivel de respuesta positiva y fluidez en la retroalimentación ante los recordatorios en el grupo vecinal.</li>
-                <li><strong>Cantidad:</strong> Índice de reincidencia de abandono de bolsas de basura por parte de personas externas (Meta: cero incidentes).</li>
-            </ol>
-        </section>
-
-        <section id="reflexion">
-            <h2>7. Implementación Tecnológica e Informe de Reflexión</h2>
-            <p>Se implementaron tecnologías emergentes específicas para viabilizar los flujos de información del proyecto: <strong>WhatsApp</strong> aportó inmediatez y alta accesibilidad para coordinar a los vecinos sin barreras técnicas; los <strong>Grupos de Facebook locales</strong> permitieron extender la búsqueda de donaciones a toda la colonia; y los <strong>Formularios de Google</strong> ayudaron a tabular de forma democrática y ordenada las disponibilidades de horario de los voluntarios.</p>
-            
-           
-        </section>
-
-    </div>
-
-    <footer>
-        <div class="container">
-            <p>&copy; 2026 Carmona Perez Angelica - Portafolio de Proyecto Comunitario Sustentable.</p>
-            <p>Diseñado para la Gestión de Tecnologías Emergentes | Prepa en Línea SEP</p>
         </div>
-    </footer>
 
-</body>
-</html>
+        <footer>
+            <div class="container">
+                <p>&copy; 2026 Carmona Perez Angelica - Portafolio de Proyecto Comunitario Sustentable.</p>
+                <p>Diseñado para la Gestión de Tecnologías Emergentes | Prepa en Línea SEP</p>
+            </div>
+        </footer>
+
+    </body>
+    </html>
